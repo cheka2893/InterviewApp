@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+	    <TableLayout
+	        android:id="@+id/tableForArticle"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	    
+		    <TableRow 
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:padding="@dimen/article_view_image_padding">
+		        
+		        <ImageView
+		        android:id="@+id/portrait"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:contentDescription="@string/article_portrait_name" />
+		        
+		    </TableRow>
+		    
+		    <TableRow 
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent">
+		        
+		        <TextView 
+		        android:id="@+id/data_name"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:padding="@dimen/article_view_padding"
+		        android:textSize="@dimen/article_view_name_text_size"
+		        android:ellipsize="none"
+		        android:singleLine="true"/>
+		        
+		    </TableRow>
+		    
+		    <TableRow 
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent">
+		        
+		        <TextView 
+		        android:id="@+id/data_address"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:padding="@dimen/article_view_padding"
+		        android:textSize="@dimen/article_view_common_text_size"/>
+		        
+		    </TableRow>
+	    
+	    
+	    
+	</TableLayout>
+        
+</ScrollView>
