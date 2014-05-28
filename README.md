@@ -26,6 +26,9 @@ the internet and that it should try again when it's connected.
 
 - I didn't use any Third party library for the app, I decide to make everything from scratch.
 
+- No Image found added to the project:
+When the list item that is being loaded doesn't have an image, it will show a dummy image with the text "No Image to Show".
+
 
 I hope you like it,
 
