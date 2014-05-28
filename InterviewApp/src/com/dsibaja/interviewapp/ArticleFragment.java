@@ -54,6 +54,8 @@ public class ArticleFragment extends Fragment {
 		if(!getMlistVenue().get(position).getImageUrl().toString().equals("")){
 			mBitmap = MediaController.getBitmapFromURL(getMlistVenue().get(position).getImageUrl());	
 			mImageView.setImageBitmap(mBitmap);
+		}else{
+			mImageView.setImageResource(R.drawable.dummy_image);
 		}
 		
 		if(getMlistVenue().get(position).getSchedule() != null){
